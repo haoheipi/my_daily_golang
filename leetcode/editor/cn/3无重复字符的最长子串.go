@@ -34,7 +34,6 @@ func lengthOfLongestSubstring(s string) int {
 	bitSet := [256]int{}
 
 	maxLen, cur := 0, 1
-	////pwwkew   s[p] = 0 s[w] = 1  2
 	for i, l := 0, len(s); i < l; i++ {
 		index := bitSet[s[i]]
 		if index >= cur {
