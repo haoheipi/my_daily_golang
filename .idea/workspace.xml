@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f750b15-258b-4523-958e-7fb1cd8eeb56" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2f750b15-258b-4523-958e-7fb1cd8eeb56" name="默认的" comment="git ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeeCache/day7-proto-buf/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GeeCache/day7-proto-buf/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/GeeCache/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/GeeCache/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +38,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/GeeCache" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="consents" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GeeCache" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/GeeCache" />
       <recent name="$PROJECT_DIR$/GeeCache/day2-single-node" />
     </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build my_daily_golang/GeeCache/day3-http-server">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="my_daily_golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="my_daily_golang" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build my_daily_golang/GeeCache/day3-http-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="my_daily_golang" />
       <working_directory value="$PROJECT_DIR$" />
@@ -51,6 +67,17 @@
       <filePath value="$PROJECT_DIR$/GeeCache/day3-http-server/main.go" />
       <package value="my_daily_golang/GeeCache/day3-http-server" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="my_daily_golang" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="my_daily_golang" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="my_daily_golang/GeeCache/day1-lru/geecache/lru 中的 TestCache_OnEvicted (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -111,6 +138,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -119,6 +150,23 @@
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state x="773" y="94" key="#com.intellij.ide.util.MemberChooser/0.23.1280.697@0.23.1280.697" timestamp="1598970550523" />
+    <state x="361" y="23" key="CommitChangelistDialog2" timestamp="1602060476530">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="321" y="23" key="CommitChangelistDialog2/0.23.1280.697@0.23.1280.697" timestamp="1599926701818" />
+    <state x="361" y="23" key="CommitChangelistDialog2/1440.23.960.517/0.23.1440.787@0.23.1440.787" timestamp="1602060476530" />
+    <state x="458" y="343" width="524" height="186" key="GitCloneDialog" timestamp="1602126579866">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="458" y="343" width="524" height="186" key="GitCloneDialog/0.23.1440.787@0.23.1440.787" timestamp="1602126579866" />
+    <state x="521" y="275" key="Github.ShareDialog" timestamp="1599926609039">
+      <screen x="0" y="23" width="1280" height="697" />
+    </state>
+    <state x="521" y="275" key="Github.ShareDialog/0.23.1280.697@0.23.1280.697" timestamp="1599926609039" />
+    <state x="435" y="83" key="Github.UntrackedFilesDialog" timestamp="1599926621718">
+      <screen x="0" y="23" width="1280" height="697" />
+    </state>
+    <state x="435" y="83" key="Github.UntrackedFilesDialog/0.23.1280.697@0.23.1280.697" timestamp="1599926621718" />
     <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1599441154740">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
@@ -151,14 +199,28 @@
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state width="1238" height="204" key="GridCell.Tab.1.right/0.23.1280.697@0.23.1280.697" timestamp="1599441154741" />
-    <state width="500" height="350" key="documentation.popup.size" timestamp="1599403407311">
+    <state x="229" y="55" key="SettingsEditor" timestamp="1602126649130">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="229" y="55" key="SettingsEditor/0.23.1440.787@0.23.1440.787" timestamp="1602126649130" />
+    <state x="229" y="55" key="SettingsEditor/1440.23.960.517/0.23.1440.787@0.23.1440.787" timestamp="1602062426856" />
+    <state x="240" y="111" key="Vcs.Push.Dialog.v2" timestamp="1599926704037">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
+    <state x="240" y="111" key="Vcs.Push.Dialog.v2/0.23.1280.697@0.23.1280.697" timestamp="1599926704037" />
+    <state width="563" height="396" key="documentation.popup.size" timestamp="1602125265971">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
     <state width="500" height="350" key="documentation.popup.size/0.23.1280.697@0.23.1280.697" timestamp="1599403407311" />
+    <state width="563" height="396" key="documentation.popup.size/0.23.1440.787@0.23.1440.787" timestamp="1602125265971" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1598971748232">
       <screen x="0" y="23" width="1280" height="697" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1280.697@0.23.1280.697" timestamp="1598971748232" />
+    <state x="385" y="134" width="670" height="676" key="search.everywhere.popup" timestamp="1602062392576">
+      <screen x="0" y="23" width="1440" height="787" />
+    </state>
+    <state x="385" y="134" width="670" height="676" key="search.everywhere.popup/1440.23.960.517/0.23.1440.787@0.23.1440.787" timestamp="1602062392576" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

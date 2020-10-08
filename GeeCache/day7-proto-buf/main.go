@@ -1,10 +1,10 @@
 package main
 
 import (
+	"GeeCache/day7-proto-buf/geecache"
 	"flag"
 	"fmt"
 	"log"
-	"my_daily_golang/GeeCache/day7-proto-buf/geecache"
 	"net/http"
 )
 
