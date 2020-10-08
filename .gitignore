@@ -17,3 +17,7 @@
 # vendor/
 
 .idea/
+/raftdb/.raft2db/
+/raftdb/.raft3db/
+/raftdb/.raftdb/
+!/raftdb/raftdb
