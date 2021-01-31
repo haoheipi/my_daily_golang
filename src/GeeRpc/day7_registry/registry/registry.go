@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-// GeeRegistry is a simple register center, provide following functions.
+// GeeRegistry is a simple_demo register center, provide following functions.
 // add a server and receive heartbeat to keep it alive.
 // returns all alive servers and delete dead servers sync simultaneously.
 type GeeRegistry struct {
@@ -68,10 +68,10 @@ func (r *GeeRegistry) aliveServers() []string {
 func (r *GeeRegistry) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	switch req.Method {
 	case "GET":
-		// keep it simple, server is in req.Header
+		// keep it simple_demo, server is in req.Header
 		w.Header().Set("X-Geerpc-Servers", strings.Join(r.aliveServers(), ","))
 	case "POST":
-		// keep it simple, server is in req.Header
+		// keep it simple_demo, server is in req.Header
 		addr := req.Header.Get("X-Geerpc-Server")
 		if addr == "" {
 			w.WriteHeader(http.StatusInternalServerError)

@@ -14,7 +14,7 @@ func main() {
 	// 在我们的例子中，`state` 是一个 map。
 	var state = make(map[int]int)
 
-	// 这里的 `mutex` 将同步对 `state` 的访问。
+	// 这里的 `mutex_demo` 将同步对 `state` 的访问。
 	var mutex = &sync.Mutex{}
 
 	// we'll see later, `ops` will count how many
@@ -30,9 +30,9 @@ func main() {
 			for {
 
 				// 每次循环读取，我们使用一个键来进行访问，
-				// `Lock()` 这个 `mutex` 来确保对 `state` 的
+				// `Lock()` 这个 `mutex_demo` 来确保对 `state` 的
 				// 独占访问，读取选定的键的值，`Unlock()` 这个
-				// mutex，并且 `ops` 值加 1。
+				// mutex_demo，并且 `ops` 值加 1。
 				key := rand.Intn(5)
 				mutex.Lock()
 				total += state[key]
@@ -65,7 +65,7 @@ func main() {
 		}()
 	}
 
-	// 让这 10 个 Go 协程对 `state` 和 `mutex` 的操作
+	// 让这 10 个 Go 协程对 `state` 和 `mutex_demo` 的操作
 	// 运行 1 s。
 	time.Sleep(time.Second)
 
